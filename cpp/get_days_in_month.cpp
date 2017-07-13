@@ -27,7 +27,7 @@ int main()
  catch (...) {
   cout << "task failed" << endl;
  }
- system ("pause"); 
+ 
 
- return 0;
+ return -1;
 }

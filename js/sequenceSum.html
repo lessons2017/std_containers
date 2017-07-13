@@ -1,0 +1,15 @@
+<script>
+const sequenceSum = (begin, end) => {
+if (end === begin) {
+return begin;
+}
+else if (begin > end) {
+return Nan;
+}
+else {
+return end + sequenceSum (begin, end-1);
+}
+}
+const answer = sequenceSum (-3, 2); 
+console.log (answer);
+</script>

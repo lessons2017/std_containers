@@ -1,0 +1,20 @@
+<script>
+
+const smallestDivisor = (n) => {
+   const iter = (counter, acc) => {
+      if (((counter > 0 && acc > 1) || (counter === 1 && acc === 1)) && (counter % acc === 0)) {
+         return acc;
+      }
+      return iter (counter, acc + 1);
+   }
+   return iter (n, 2);
+}   
+if (counter < 0 && acc < 1) {
+return NaN;
+}
+
+const answer = smallestDivisor (-17);  
+
+console.log (answer); 
+
+</script>

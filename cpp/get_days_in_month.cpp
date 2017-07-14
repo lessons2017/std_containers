@@ -28,6 +28,7 @@ int main()
   cout << "task failed" << endl;
  }
  
+ system("pause"); // just to test commit message
 
- return -1;
+ return 0;
 }
